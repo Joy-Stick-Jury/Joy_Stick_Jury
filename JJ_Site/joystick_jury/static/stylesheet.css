@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Audiowide";
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Roboto Condensed";
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #582707, #972d07, #cc0e00, #ffb20f, #ffe548);
+    background-size: 200% 200%;
+    animation: gradientAnimation 7s ease infinite;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #333; /* Background color of the navigation bar */
+    padding: 10px 0; /* Add padding to the top and bottom */
+}
+
+nav {
+    text-align: center; /* Center-align the navigation links */
+}
+
+nav a {
+    color: #fff; /* Text color of the navigation links */
+    text-decoration: none; /* Remove underline from the links */
+    margin: 0 10px; /* Add some space between the links */
+    font-family: "Audiowide";
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #ccc; /* Text color of the links on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color of the footer */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center-align the content */
+    margin-top: 110px;
+}
+
+footer a {
+    color: #fff; /* Text color of the footer links */
+    text-decoration: none; /* Remove underline from the links */
+    margin: 0 10px; /* Add some space between the links */
+}
+
+footer a:hover {
+    color: #ccc; /* Text color of the links on hover */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
